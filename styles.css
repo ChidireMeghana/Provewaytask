@@ -1,0 +1,174 @@
+h1{
+  text-align:center;
+    color:green;
+      height:5px;
+  font-family:sans-serif;
+  font-size:20px
+}
+.box{
+  width: 300px;
+  height: 130px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 40px auto;
+  font-family:sans-serif;
+  font-size:15px
+  
+}
+
+h6{
+  text-align:right;
+  margin:-20px auto;
+    
+}
+.popular{
+  color:green;
+  
+}
+
+.size{
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:30px;
+}
+.color{
+  text-align:center;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:-65px;
+}
+.content1,.content2,.content3
+ {
+  display: none;
+   
+}
+
+.toggle1:checked~.grid-container1 .content1,
+.toggle2:checked~.grid-container2 .content2,
+.toggle3:checked~.grid-container3 .content3
+{
+   display: block;
+  background-clip: content-box;
+  
+  background-color: #e7e6e7;
+ 
+}
+
+
+
+
+
+
+#sizes{
+  
+  padding:0;
+list-style: none;
+position: relative;
+display:block;
+  left:10px;
+  bottom:1px;
+  
+  
+ 
+    
+  
+}
+
+#colours{
+  float:right;
+  padding:0;
+list-style: none;
+position: relative;
+display:block;
+  right:35%
+  
+}
+
+#colours1{
+  float:right;
+  padding:0;
+list-style: none;
+position: relative;
+display:block;
+  right:0px;
+  top:19px;
+  left:-14%;
+}
+
+.box2{
+  width: 300px;
+  height: 130px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 110px;
+  margin-left:590px;
+  margin-top:-20px;
+  font-family:sans-serif;
+  font-size:15px
+  
+  
+  overflow: hidden;
+  
+}
+
+.secondpair{
+  font-size:14px
+}
+
+.firstpair{
+  font-size:14px
+}
+.thirdpair{
+  font-size:14px
+}
+
+.box3{
+  width: 300px;
+  height: 130px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 110px;
+  margin-left:590px;
+  margin-top:-90px;
+  overflow: hidden;
+  font-family:sans-serif;
+  font-size:15px
+}
+.shipping{
+  margin: 110px;
+  margin-left:590px;
+  margin-top:-90px;
+  color:green;
+  
+}
+
+.total{
+  margin-left:70px;
+  color:black;
+}
+
+.button{
+  color:white;
+  background-color:green;
+   margin-left:700px;
+  padding:10px;
+  
+ 
+  
+
+}
+
+
+.footer{
+  margin-left:800px;
+  font-size:15px;
+}
+
+
+  
+
+  
+  
+ 
+
+
